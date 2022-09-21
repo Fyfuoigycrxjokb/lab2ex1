@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int cnt=0, y=1;
+    float x, sum=0;
+    while(sum<=5)
+    {
+        x=1./y;
+        y=y+1;
+        sum=sum+x;
+        cnt=cnt+1;
+    }
+    printf ("cnt = %d\n",cnt);
+
+    return 0;
+}
